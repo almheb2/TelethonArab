@@ -55,7 +55,7 @@ async def inline_handler(event):
             buttons = [
                 (
                     Button.inline("السورس", data="stats"),
-                    Button.url("الريبو", "https://github.com/Guevaras1explanations/TelethonArab-"),
+                    Button.url("الريبو", "https://github.com/almheb2/TelethonArab"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -319,7 +319,7 @@ async def inline_handler(event):
             type="photo",
             title="iqthon",
             description="نصب لنفسك",
-            url="https://dashboard.heroku.com/new?template=https://github.com/Guevaras1explanations/TelethonArab-",
+            url="https://dashboard.heroku.com/new?template=https://github.com/almheb2/TelethonArab",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
